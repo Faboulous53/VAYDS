@@ -1,0 +1,19 @@
+@use '../abstracts/mixins';
+
+.activity-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+@include mixins.desktop {
+    .property-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@include mixins.smartphone {
+    .property-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

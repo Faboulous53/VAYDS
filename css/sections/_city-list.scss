@@ -1,0 +1,68 @@
+// le Code de style de cette page a été écrit uniquement pour exercice    
+
+
+.city-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+
+.chapelle {
+    background-image:url(../images/img28.jpg);
+    background-size: cover;
+    width: 420px;
+    height: 370px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.filtreno {
+width: auto;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+margin: 200px 15px 15px 15px;
+padding: 0 10px;
+border-radius: 6px;
+text-align: center;
+background: rgb(15 28 47 / 50%);
+position: absolute;
+
+}
+
+.font-color {
+position: relative;
+font-size: 17px;
+color: #ffffff;
+margin: 0px;
+width: auto;
+font-weight: 600;
+line-height: 26px;
+text-transform: capitalize;
+text-align: center;
+}
+
+
+.montStmichel {
+    background-image: url(../images/img10.jpg);
+    background-size: cover;
+    width: 370px;
+    height: 370px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-session{
+    margin-top: 80px;
+    font-size: 2rem;
+    text-align: center;
+}
